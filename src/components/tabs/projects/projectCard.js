@@ -1,5 +1,4 @@
 import React from "react";
-import "./project.css";
 
 function projectCard(props) {
   return (
@@ -20,9 +19,8 @@ function projectCard(props) {
           </li>
         </ul>
       </div>
-      <span className="remove" onClick={() => removeProject}>𝘅</span>
     </div>
   );
 }
 
-export default FriendCard;
+export default projectCard;

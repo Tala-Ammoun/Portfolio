@@ -1,12 +1,21 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
+const navStyle = {
+  tabs: {
+    fontFamily: "Times New Roman",
+    margin: 5,
+  },
+}
+
+
 function NavTabs() {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      <li className="nav-item" style={navStyle.tabs}>
         <NavLink
-          to="/"
+          to="/Portfolio"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
@@ -15,9 +24,9 @@ function NavTabs() {
           Home
         </NavLink>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" style={navStyle.tabs}>
         <NavLink
-          to="Projects"
+          to="/Portfolio/Projects"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
@@ -25,19 +34,9 @@ function NavTabs() {
           Projects
         </NavLink>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" style={navStyle.tabs}>
         <NavLink
-          to="Projects/Project"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Project
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="Contact"
+          to="/Portfolio/Contact"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }

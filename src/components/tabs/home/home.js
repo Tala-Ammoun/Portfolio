@@ -1,22 +1,50 @@
 import React from "react";
 import "./home.css";
 
+const homeStyle = {
+  card: {
+    margin: 20,
+    background: "#ededeb"
+  },
+  heading: {
+    textAlign: "center",
+    fontFamily: "Times New Roman",
+    background: "brown",
+    minHeight: 50,
+    lineHeight: 3.5,
+    fontSize: "1.2rem",
+    color: "white",
+    padding: "0 20px"
+  },
+  content: {
+    fontFamily: "Times New Roman",
+    paddingLeft: 30,
+    paddingRight: 30,
+    paddingBottom: 20,
+  },
+  content2: {
+    textAlign: "center",
+    fontFamily: "Times New Roman",
+    paddingTop: 10,
+  },
+  image: {
+    height: 300,
+    width:200,
+    marginLeft: 520,
+  },
+};
+
+
 function Home() {
   return (
-    <div>
-      <h1>Tala Ammoun</h1>
-      <img src="photo.jpg" alt="me"/>
-      <p> HTML || CSS || Javascript || Jquery || Server APIs || Node.js || React</p>
-      <p>
-      "I am a skilled software developer with a passion for creating elegant, efficient, and user-friendly applications. 
-      With a strong background in various programming languages and frameworks, 
-      I have the expertise to design and develop robust solutions that meet the unique needs of clients and end-users alike. 
-      Whether it's building mobile apps, web-based software, or custom integrations, 
-      I am committed to delivering high-quality code and exceptional user experiences. 
-      Through my collaborative approach and ability to quickly learn new technologies, 
-      I strive to be a valuable asset to any development team. 
-      My focus on continuous improvement and innovation allows me to stay ahead of industry trends and 
-      deliver cutting-edge solutions that exceed expectations."
+    <div style={homeStyle.card}>
+      <h1 style={homeStyle.heading}>Tala Ammoun</h1>
+      <img className="profile-photo" src={require("./photo.jpg")} alt={"me"} style={homeStyle.image}/>
+      <p style={homeStyle.content2}> HTML || CSS || Javascript || Jquery || Server APIs || Node.js || React</p>
+      <p style={homeStyle.content}>
+      I am a hard-working software developer committed to delivering high-quality code and exceptional user experiences. 
+      My collaborative approach and ability to quickly learn new technologies allows me to exceed expectations and become
+      a valuable asset to any development team. 
       </p>
     </div>
   );
