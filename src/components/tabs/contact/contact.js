@@ -143,7 +143,7 @@ export class Form extends Component {
 export function Contact() {
   return (
     <div style={contactStyle.card}>
-      <h1 style={contactStyle.heading}>Contact Page</h1>
+      <h1 style={contactStyle.heading}>Contact Me</h1>
 
       <div>
       <p style={contactStyle.content}>

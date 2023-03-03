@@ -50,7 +50,7 @@ const projectStyle = {
 export function Projects(props) {
   return (
     <div style={projectStyle.card}>
-      <h1 style={projectStyle.heading}>Projects Page</h1>
+      <h1 style={projectStyle.heading}>Projects</h1>
       <p style={projectStyle.content2}>
       Welcome to my portfolio! 
       </p>
