@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.c2cab247.css",
-    "main.js": "/Portfolio/static/js/main.aa864e7e.js",
+    "main.js": "/Portfolio/static/js/main.b2724fe8.js",
+    "static/media/photo.jpg": "/Portfolio/static/media/photo.e7a84d788187737d5840.jpg",
+    "static/media/CV_Tala_Ammoun.pdf": "/Portfolio/static/media/CV_Tala_Ammoun.7be1f434403a9f0b3642.pdf",
     "index.html": "/Portfolio/index.html",
     "main.c2cab247.css.map": "/Portfolio/static/css/main.c2cab247.css.map",
-    "main.aa864e7e.js.map": "/Portfolio/static/js/main.aa864e7e.js.map"
+    "main.b2724fe8.js.map": "/Portfolio/static/js/main.b2724fe8.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.aa864e7e.js"
+    "static/js/main.b2724fe8.js"
   ]
 }
