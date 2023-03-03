@@ -17,6 +17,9 @@ function projectCard(props) {
           <li>
             <strong>Skills:</strong> {props.skills}
           </li>
+          <li>
+            <strong>Link:</strong> {props.link}
+          </li>
         </ul>
       </div>
     </div>

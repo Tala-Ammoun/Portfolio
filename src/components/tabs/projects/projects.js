@@ -101,6 +101,7 @@ export class App extends React.Component {
             image={this.project.image}
             description={this.project.description}
             skills={this.project.skills}
+            link={this.project.link}
           />)
         }
         )
