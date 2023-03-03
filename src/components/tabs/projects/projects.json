@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Random Password Generator",
+      "image": "./images/password_generator.jpg",
+      "description": "Created a web-application that generates a random password based on a set of user-chosen criteria", 
+      "skills": "Javascript"
+    },
+    {
+      "id": 2,
+      "name": "Quiz",
+      "image": "./images/quiz.jpg",
+      "description": "Built a timed quiz with multiple-choice questions and stored user's answers and high scores in local storage",
+      "skills": "Javascript"
+    },
+    {
+      "id": 3,
+      "name": "Daily Planner",
+      "image": "./images/daily_planner.jpg",
+      "description": "Built a daily planner that displays the date in real time, allows users to save events for each hour of the day, and highlights in real time the past, present, and future hours in different colors.",
+      "skills": "Javascript || jQuery"
+    },
+    {
+      "id": 4,
+      "name": "Weather Dashboard",
+      "image": "./images/weather_dashboard.jpg",
+      "description": "Built a weather dashboard using a server API that allows users to access live weather data over a 5-day period, in several locations, and in real time.",
+      "skills": "Javascript || jQuery || Server API"
+    },
+    {
+      "id": 5,
+      "name": "Bites and Booze",
+      "image": "./images/bites_and_booze.jpg",
+      "description": "Built a web-application that provides users with a variety of recipes for food and cocktails upon search, as well as save their most recent search into local storage.",
+      "skills": "HTML || CSS || Bootstrap || Javascript || Server APIs"
+    },
+    {
+      "id": 6,
+      "name": "Read.me file generator",
+      "image": "./images/readme_node.jpg",
+      "description": "Created a command-line application that dynamically generates a professional README.md file from user input using Inquirer",
+      "skills": "Node.js"
+    }
+]
