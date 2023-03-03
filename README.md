@@ -24,11 +24,11 @@ https://github.com/Tala-Ammoun/Portfolio/deployments/activity_log?environment=gi
 You can access the link using the following steps:
 
 ### Step 1
-![How to find the live link.](assets/Screenshot1.jpg)
+![How to find the live link.](Screenshot1.jpg)
 
 
 ### Step 2
-![How to find the live link.](assets/Screenshot2.jpg)
+![How to find the live link.](Screenshot2.jpg)
 
 ## Credits
 
