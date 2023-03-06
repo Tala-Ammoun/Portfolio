@@ -20,7 +20,7 @@ npx create-react-app Portfolio
 cd into "Portfolio", then download bootstrap, axios, and react router dom by running the command
 
 ```
-npm install axios react-router-dom
+npm install bootstrap axios react-router-dom
 ```
 
 Finally, test the app by running the command
