@@ -1,10 +1,11 @@
 import React from "react";
+import projects from './projects.json';
 
-function projectCard(props) {
+function ProjectCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={props.name} src={require(`${props.image}`)} />
       </div>
       <div className="content">
         <ul>
@@ -18,7 +19,7 @@ function projectCard(props) {
             <strong>Skills:</strong> {props.skills}
           </li>
           <li>
-            <strong>Link:</strong> {props.link}
+            <strong>Link:</strong> <a href={props.link}>{props.name}</a>
           </li>
         </ul>
       </div>
@@ -26,4 +27,4 @@ function projectCard(props) {
   );
 }
 
-export default projectCard;
+export default ProjectCard;
