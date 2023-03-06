@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c2cab247.css",
-    "main.js": "/Portfolio/static/js/main.b2724fe8.js",
+    "main.css": "/Portfolio/static/css/main.800bb63a.css",
+    "main.js": "/Portfolio/static/js/main.c47bfc26.js",
     "static/media/photo.jpg": "/Portfolio/static/media/photo.e7a84d788187737d5840.jpg",
     "static/media/CV_Tala_Ammoun.pdf": "/Portfolio/static/media/CV_Tala_Ammoun.7be1f434403a9f0b3642.pdf",
+    "static/media/bites_and_booze.jpg": "/Portfolio/static/media/bites_and_booze.d6aedb56ee57eb33cfcb.jpg",
+    "static/media/weather_dashboard.jpg": "/Portfolio/static/media/weather_dashboard.37184594eb4755b758db.jpg",
+    "static/media/readme_node.jpg": "/Portfolio/static/media/readme_node.dde59e45ad23ba0531ae.jpg",
+    "static/media/daily_planner.jpg": "/Portfolio/static/media/daily_planner.c3a4fab1845611629e6d.jpg",
+    "static/media/password_generator.jpg": "/Portfolio/static/media/password_generator.d65fb9951afe87f3091b.jpg",
+    "static/media/quiz.jpg": "/Portfolio/static/media/quiz.5c20d8dbfb9b683fe006.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.c2cab247.css.map": "/Portfolio/static/css/main.c2cab247.css.map",
-    "main.b2724fe8.js.map": "/Portfolio/static/js/main.b2724fe8.js.map"
+    "main.800bb63a.css.map": "/Portfolio/static/css/main.800bb63a.css.map",
+    "main.c47bfc26.js.map": "/Portfolio/static/js/main.c47bfc26.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cab247.css",
-    "static/js/main.b2724fe8.js"
+    "static/css/main.800bb63a.css",
+    "static/js/main.c47bfc26.js"
   ]
 }
