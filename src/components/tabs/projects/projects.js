@@ -45,7 +45,6 @@ const projectStyle = {
     marginLeft: 556,
     marginBottom: 20,
   }
-  
 };
 
 export class Projects extends React.Component {
@@ -89,7 +88,7 @@ export class Projects extends React.Component {
           </div>
         </div>
         {this.state.isToggleOn ?
-        <Wrapper style={{display:"flex"}}>
+        <Wrapper>
           {this.state.projects.map(project => {
             return (
               <ProjectCard
